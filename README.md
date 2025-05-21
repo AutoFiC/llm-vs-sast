@@ -67,7 +67,7 @@ python3 -m venv .venv
 python3.11 -m venv .venv
 
 # Activate Virtual Environment
-.venv/bin/activate
+source .venv/bin/activate
 
 # Essential Library install
 pip install --upgrade pip
