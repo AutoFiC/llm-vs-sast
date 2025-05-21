@@ -2,7 +2,7 @@
 
 논문을 작성하기 전에 **LLM 모델과 SAST 도구의 성능**을 비교하는 Repository입니다.
 
-![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python) ![CodeBERT](https://img.shields.io/badge/Code-v0.2.3-green) ![Status](https://img.shields.io/badge/status-developing-orange)
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python) ![CodeBERT](https://img.shields.io/badge/CodeBERT-v0.2.3-green) ![Status](https://img.shields.io/badge/status-developing-orange)
 
 
 ## 🛠 개발 환경
