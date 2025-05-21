@@ -5,17 +5,15 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python) ![CodeBERT](https://img.shields.io/badge/Code-v0.2.3-green) ![Status](https://img.shields.io/badge/status-developing-orange)
 
 
-## 📌 개발 환경
-🛠 개발 환경
+## 🛠 개발 환경
+```bash
 Language : Python 3.11.x
-
 Virtual Environment : venv
-
 IDE : Visual Studio Code / PyCharm / Jupyter Notebook
-
 Package Manager : pip
-
 Essential Library : requirements.txt
+```
+
 
 
 ## ️☝️ 개발 환경 구축 -> (Windows)
