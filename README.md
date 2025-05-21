@@ -8,9 +8,13 @@
 ## 📌 개발 환경
 🛠 개발 환경
 Language : Python 3.11.x
+
 Virtual Environment : venv
+
 IDE : Visual Studio Code / PyCharm / Jupyter Notebook
+
 Package Manager : pip
+
 Essential Library : requirements.txt
 
 
