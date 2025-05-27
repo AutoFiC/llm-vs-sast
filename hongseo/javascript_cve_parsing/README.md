@@ -14,17 +14,18 @@ javascript CVE 사이트에서 github가 포함된 url만 추출하는 프로그
 🌟 Essential Library : requirements.txt
 ```
 
-## Directory 상태태
+## Directory 상태
 ```bash
 # CVE만 모아져있는 사이트 Clone
 git clone https://github.com/fkie-cad/nvd-json-data-feeds.git
+```
 
-# CVE-2022처럼 해당하는 폴더만 현재 디렉토리로 이동
+CVE-2022처럼 해당하는 폴더만 현재 디렉토리로 이동
 ![image1](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image1.png)
 
-# cve_url_discript_auto.py 실행 후 디렉토리
+cve_url_discript_auto.py 실행 후 디렉토리
 ![image2](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image2.png)
 
-# 이후 생성된 csv 파일 모습
+이후 생성된 csv 파일 모습
 ![image3](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image3.png)
-```
+
