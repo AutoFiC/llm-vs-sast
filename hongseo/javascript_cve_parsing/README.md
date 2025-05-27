@@ -20,12 +20,22 @@ javascript CVE 사이트에서 github가 포함된 url만 추출하는 프로그
 git clone https://github.com/fkie-cad/nvd-json-data-feeds.git
 ```
 
+
+```bash
 CVE-2022처럼 해당하는 폴더만 현재 디렉토리로 이동
+```
 ![image1](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image1.png)
 
+
+```bash
 cve_url_discript_auto.py 실행 후 디렉토리
+```
 ![image2](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image2.png)
 
+
+
+```bash
 이후 생성된 csv 파일 모습
+```
 ![image3](https://github.com/Moomin03/llm-vs-sast/blob/main/hongseo/javascript_cve_parsing/images/image3.png)
 
