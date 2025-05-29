@@ -74,7 +74,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## 🥉 디렉토리 구성성
+## 🥉 디렉토리 구성
 ```
 llm-vs-sast
 ├─ hongseo
