@@ -73,3 +73,37 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+
+## 🥉 디렉토리 구성성
+```
+llm-vs-sast
+├─ hongseo
+│  ├─ 1. Get Datasets (데이터 준비 과정)
+│  │  └─ Vulnerability_Data_Original.zip (전처리 이전 데이터-115개 개별 파일)
+│  ├─ 2. javascript_cve_parsing (데이터 수집 과정)
+│  │  ├─ CVE-crawling-github.py (CVE 크롤링 후 github 레퍼런스만 추출)
+│  │  └─ README.md
+│  ├─ 3. Preprocessing (데이터 전처리 과정)
+│  │  ├─ Javascript-to-AST.py (Javascript -> AST로 변환)
+│  │  └─ tree-sitter-javascript (AST 변환 라이브러리)
+│  ├─ 4. Model Test (테스트 과정)
+│  │  ├─ Input_data
+│  │  │  ├─ function_count_summary.csv (CVE별 함수 개수)
+│  │  │  └─ input_dataset.json (전처리된 데이터)
+│  │  └─ Model test code (모델 실험 코드)
+│  │     ├─ Gpt4_test.py
+│  │     └─ Meta_llama_test.py
+│  └─ 5. Results (결론)
+│     ├─ Cleansing_Metrics.ipynb (최종 모델 결과 병합 및 성능 평가)
+│     ├─ Final Results (최종 모델 결과 병합)
+│     │  ├─ Result.csv
+│     │  └─ Result.xlsx
+│     └─ Model Results (각 모델별 결과값 .jsonl)
+│        ├─ results_gpt3.5.jsonl
+│        ├─ results_gpt4.jsonl
+│        ├─ results_llama3-8b.jsonl
+│        ├─ results_mistral.jsonl
+│        └─ results_semgrep.jsonl
+├─ README.md
+└─ requirements.txt
+```
